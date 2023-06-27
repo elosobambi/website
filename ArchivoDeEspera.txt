@@ -1,0 +1,24 @@
+ARCHIVO de prueba para probar el stash
+commit 2b64d0b3cade2468bfdff5875bdf391de15b4934 (HEAD -> custom-navbar, origin/master, origin/HEAD, master)
+Author: Marcos Leonel Jugo <marcosjugo@hotmail.com>
+Date:   Tue Jun 27 18:50:56 2023 -0300
+
+    Borrando archivo status utilizando comando stash para dejar la otra rama en stand by
+
+commit a8cd4505562f40a014a9a3625f8aca9ac1404d95
+Author: Marcos Leonel Jugo <marcosjugo@hotmail.com>
+Date:   Tue Jun 27 18:35:28 2023 -0300
+
+    modificacion de status.js
+
+commit ac955e77abad4fba468a7950d57f71e224032430
+Author: Marcos Leonel Jugo <marcosjugo@hotmail.com>
+Date:   Tue Jun 27 18:33:53 2023 -0300
+
+    creando status.js en master
+
+commit 582b4f466fa51d39081c0998d00c3c9e10fb821a
+Author: Marcos Jugo <69990401+elosobambi@users.noreply.github.com>
+Date:   Tue Jun 27 18:32:13 2023 -0300
+
+Si se puede resolver, Aplicando en la rama donde estes un git stash --include-untracked para asi tus archivos o modificaciones quedan almacenadas localmente, vas a la rama master borras los cambios y luego en con un pop traes los cambios nuevamente. Antes de hacer hacer commit de los cambios hacer un pull de master si uno quiere luego pasar a master los cambios.
